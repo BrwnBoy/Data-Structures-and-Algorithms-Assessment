@@ -23,3 +23,8 @@ def is_balanced(expression):
 
     # The stack should be empty at the end
     return not stack
+
+expression1 = "([]{})"
+expression2 = "([)]"
+print(is_balanced(expression1))  # Output: True
+print(is_balanced(expression2))  # Output: False 
